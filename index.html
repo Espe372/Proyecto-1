@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Proyecto 1</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700" rel="stylesheet">
+</head>
+<body>
+    <header>
+            <p class="burger">&#9776;</p>
+        <a href="#" class="logo"><i class="fas fa-home"></i></a> 
+        <nav>
+            <ul>
+                <li><a class="activo" href="./index.html">Inicio</a></li>
+                <li><a href="./compras.html">Venta</a></li>
+                <li><a href="./alquiler.html">Alquiler</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>   
+            </ul>
+        </nav>
+    </header>
+    <div class="hero">
+        <h1>Inmobiliaria Alameda</h1>
+        <h2>Donde encontrarás tu casa especial.</h2>
+        <form>
+                <div class="op1">  
+                    <label for="Venta"><input type="checkbox"> Venta</label>
+                    <label for="Alquiler"><input type="checkbox">  Alquiler</label>
+                    <label for="Todos"><input type="checkbox"> Todos</label>
+                </div>
+                <div class="op2">
+                    Zona: &nbsp;
+                    <select name="zona" id="zona">
+                        <option value="1">Nerja</option>
+                        <option value="2">Torrox</option>
+                        <option value="3">Algarrobo</option>
+                        <option value="4">Vélez-Málaga</option>
+                        <option value="5">Rincón de la Victoria</option>
+                        <option value="6">Málaga</option>
+                        <option value="7">Torremolinos</option>
+                        <option value="8">Benalmádena</option>
+                        <option value="9">Fuengirola</option>
+                        <option value="10">Mijas</option>
+                        <option value="11">Marbella</option>
+                        <option value="12">Benahavís</option>
+                        <option value="13">Estepona</option>
+                        <option value="14">Casares</option>
+                        <option value="15">Manilva</option>
+                    </select>
+                </div>
+                <div class="op3">
+                    <button>Buscar...</button>
+                </div>
+            </form>  
+    </div>
+    <div class="contenido">
+        <div class="col2">
+            <p>¡BIENVENIDOS A INMOBILIARIA ALAMEDA!  <br>
+            Nuestra empresa posee una experiencia de más de 20 años en el sector, 
+            con la que ofreceremos el mejor servicio de venta y alquiler de inmuebles de lujo.
+             </p>
+        </div>
+        <div class="foto">
+            <img src="./img/Costa_del_Sol_Nerja.jpg" alt="Costa del Sol">
+        </div>
+    </div>
+    <div class="col2 contenido">
+        <div class="venta contenido">
+            <img src="./img/Venta casa.png" alt="">
+            <a class="boton" href="./compras.html">&nbsp;&nbsp;&nbsp;Venta&nbsp;&nbsp;&nbsp;</a>
+        </div>
+        <div class="alquiler contenido">
+            <img src="./img/venta alquiler.png" alt="">
+            <a class="boton" href="./alquiler.html">Alquiler</a>
+        </div>
+    </div>
+        <div class="news">
+        <p>Suscríbete a nuestra Newsletter</p>
+        </div>
+        <div class="correo centrado">
+            <input type="text" placeholder="Correo Electrónico">
+            <button> Enviar</button> 
+        </div>
+    <footer>
+        <div class="izquierdo">
+            <h5>Inmobiliaria Alameda, S.A.</h5>
+            <p><i class="fas fa-compass"></i>  &nbsp; Paseo de las Acacias, 22</p>
+            <p><i class="fas fa-map-signs"></i> &nbsp; 29001 Málaga</p>
+            <p><i class="fas fa-tty"></i> &nbsp; 901 01 01 02</p>
+            <p><i class="fas fa-at"></i> &nbsp; info@alameda.com</p>
+        </div>
+        <div class="centro">
+            <a class="activo" href="./index.html">Inicio</a>
+            <a href="./compras.html">Venta</a>
+            <a href="./alquiler.html">Alquiler</a>
+            <a  href="./contacto.html">Contacto</a>
+        </div>
+        <div class="derecha">
+            <div class="rrss">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="legal">
+                <a href="contacto.html#aviso">Aviso Legal</a> 
+                <a href="contacto.html#cookies">Cookies</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
